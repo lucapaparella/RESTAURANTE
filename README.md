@@ -4,5 +4,5 @@
 4. cd ..
 5. python -m venv RESTAURANTE
 6. cd RESTAURANTE
-7. .Scripts/activate
-8. pip install requirements.txt
+7. Scripts/activate
+8. pip install -r requirements.txt
