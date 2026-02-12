@@ -36,7 +36,7 @@ try:
         match opcao:
             case 1:
                 nome = input("Qual o nome do prato? ")
-                ingredientes = input("Quai os ingredientes? ")
+                ingredientes = input("Quais os ingredientes? ")
                 preco = float(input("Qual o preço do prato? "))
                 query = f"insert into pratos(nome,ingredientes,preco) values ('{nome}','{ingredientes}',{preco})"
                 cursor.execute(query)
