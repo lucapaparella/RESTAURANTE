@@ -1,3 +1,8 @@
-git remote add origin https://github.com/lucapaparella/RESTAURANTE.git
-git branch -M main
-git push -u origin main
+1. git clone https://github.com/lucapaparella/RESTAURANTE.git
+2. no VSCODE: add folder to workspace (pasta RESTAURANTE)
+3. terminal => new terminal
+4. cd ..
+5. python -m venv RESTAURANTE
+6. cd RESTAURANTE
+7. .Scripts/activate
+8. pip install requirements.txt
